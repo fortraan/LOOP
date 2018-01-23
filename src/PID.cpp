@@ -27,3 +27,11 @@ void PID::PIDWrite(double output) {
 void PID::SetSetpoint(double setpoint) {
 	controller.SetSetpoint(setpoint);
 }
+
+double PID::GetOutput() {
+	return outputBuffer;
+}
+
+void PID::SetInput(double input) {
+	inputBuffer = input;
+}

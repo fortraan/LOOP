@@ -23,6 +23,8 @@ protected:
 public:
 	PID(double p, double i, double d);
 	void SetSetpoint(double setpoint);
+	double GetOutput();
+	void SetInput(double input);
 };
 
 #endif /* SRC_LOOPCORE_PID_H_ */
