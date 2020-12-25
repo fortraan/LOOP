@@ -1,11 +1,7 @@
 ___
 ![LOOP](Loop.png)
-AN OPEN SOURCE FRC LIBRARY
-___
-Welcome! This is the repository for the LOOP framework.
+___ 
 
-### What is LOOP?
-LOOP is a toolkit meant to augment Wpilib. It 
-  
+This is some framework code I used for FRC.
 ---
 ###### LOOP framework v0
